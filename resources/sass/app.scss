@@ -1,0 +1,214 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+:root {
+    --color-primary:#1e293b;
+    --color-secondary:#D72323;
+    --color-white:#ffffff;
+    --color-black:#000000;
+    --color-grey-0:#f8f8f8;
+    --color-grey-1:#dbe1e8;
+    --color-grey-2:#b2becd;
+    --color-grey-3:#6c7983;
+    --color-grey-4:#454e56;
+    --color-grey-5:#2a2e35;
+    --color-grey-6:#12181b;
+    --color-border:#eaeaea;
+    --br-sm: 14px;
+    --heading-font: 'Oswald', sans-serif;
+    --text-font: 'Josefin sans', sans-serif;
+    --box-shadow-1:0 3px 15px rgba(0,0,0, .3);
+    --transitiom-all-04: all .4s ease-in-out;
+}
+
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-primary);
+    font-family:'Josefin sans', sans-serif;
+    font-size:18px;
+    color: var(--color-white);
+    transition: var(--transitiom-all-04);
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+}
+
+header {
+    height: 100vh;
+    color: var(--color-white);
+    overflow: hidden;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 50px 290px;
+}
+
+.section {
+    transform: translateY(-100%);
+    transition: var(--transitiom-all-04);
+    background-color: var(--color-primary);
+}
+
+.sec1 {
+    display: none;
+    transform: translateY(0) scale(1);
+    
+}
+
+.sec2 {
+    display: none;
+    transform: translateY(0) scale(1);
+    
+}
+
+.sec3 {
+    display: none;
+    transform: translateY(0) scale(1);
+    
+}
+
+.sec4 {
+    display: none;
+    transform: translateY(0) scale(1);
+    
+}
+
+.sec5 {
+    display: none;
+    transform: translateY(0) scale(1);
+    
+}
+
+.active:not(div.control) {
+    display: block;
+    animation: scaleAnim 1s ease-in-out;
+    @keyframes scaleAnim {
+        0% {
+            transform: translateY(-100%) scaleY(0);
+        }
+        100% {
+            transform: translateY(0) scaleY(1);
+        }
+    }
+}
+
+.control i {
+    color: var(--color-white);
+}
+
+//Controlls 
+.controlls {
+    position: fixed;
+    z-index: 10;
+    top: 50%;
+    right:3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transform:translateY(-50%);
+    
+    .active-btn {
+        background-color: var(--color-secondary) !important;
+        transition: var(--transitiom-all-04);
+        i {
+            color: var(--color-white) !important;
+        }
+    }
+
+    .control {
+        padding: 15px;
+        cursor: pointer;
+        background-color: var(--color-grey-4);
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        display: flex;        
+        align-items: center;
+        justify-content: center;
+        box-shadow: var(--box-shadow-1);
+    }
+    i {
+        font-size: 20px;
+        color: var(--color-grey-2);
+        pointer-events: none;
+    }
+}
+
+/**
+* Header Content
+*/
+.header-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100%;
+    .left-header {
+        display: flex;
+        align-items: center;
+        position: relative;
+        .h-shape {
+            transition: var(--transitiom-all-04);
+            width: 65%;
+            height: 100%;
+            background-color: var(--color-secondary);
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
+        }
+
+        .image {
+            height: 90%;
+            width: 68%;
+            margin-left: 65px;
+            background-color: #222d35;
+            transition: var(--transitiom-all-04);
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: var(--transitiom-all-04);
+                filter:grayscale(100%);
+                &:hover {
+                    filter:grayscale(0);
+                }
+            }
+            
+        }
+    }
+
+    .right-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 290px;
+    }
+}
+
+/**
+* Independent content
+*/

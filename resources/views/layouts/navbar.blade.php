@@ -9,8 +9,7 @@
         </div>
         <div class="right-header">
             <h1 class="name">
-                Hi, I`m <span>Aleksandr Vasiljev</span>
-                A Web Developer.
+                Hi, I`m <span>Aleksandr Vasiljev.</span> A Web Developer.
             </h1>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores earum ad vero hic? Laboriosam doloremque sed cumque inventore error, voluptatum iusto, tenetur ab, impedit explicabo possimus. Consectetur voluptatibus porro eius est! Numquam, maiores obcaecati officiis eligendi labore harum est iusto laboriosam expedita in, soluta dignissimos magni consequatur ab odit aut minus rem voluptatibus.

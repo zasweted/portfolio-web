@@ -143,3 +143,52 @@
         </div>
     </div>
 </div>
+<h4 class="stat-title">
+    My Timeline
+</h4>
+<div class="timeline">
+    <div class="timeline-item">
+        <div class="timeline-icon">
+            <i class="fas fa-briefcase"></i>
+        </div>
+        <p class="timeline-duration">
+            2010 - present
+        </p>
+        <h5>Web Developer<span> - Vicrosoft</span></h5>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae aliquam, pariatur iusto officiis, similique eos voluptatum ad eum, saepe itaque voluptates labore? Explicabo, omnis aspernatur!
+        </p>
+    </div>
+    <div class="timeline-item">
+        <div class="timeline-icon">
+            <i class="fas fa-briefcase"></i>
+        </div>
+        <p class="timeline-duration">
+            2010 - present
+        </p>
+        <h5>Web Developer<span> - Vicrosoft</span></h5>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae aliquam, pariatur iusto officiis, similique eos voluptatum ad eum, saepe itaque voluptates labore? Explicabo, omnis aspernatur!
+        </p>
+    </div>
+    <div class="timeline-item">
+        <div class="timeline-icon">
+            <i class="fas fa-briefcase"></i>
+        </div>
+        <p class="timeline-duration">
+            2010 - present
+        </p>
+        <h5>Web Developer<span> - Vicrosoft</span></h5>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae aliquam, pariatur iusto officiis, similique eos voluptatum ad eum, saepe itaque voluptates labore? Explicabo, omnis aspernatur!
+        </p>
+    </div>
+    <div class="timeline-item">
+        <div class="timeline-icon">
+            <i class="fas fa-briefcase"></i>
+        </div>
+        <p class="timeline-duration">
+            2010 - present
+        </p>
+        <h5>Web Developer<span> - Vicrosoft</span></h5>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae aliquam, pariatur iusto officiis, similique eos voluptatum ad eum, saepe itaque voluptates labore? Explicabo, omnis aspernatur!
+        </p>
+    </div>
+</div>

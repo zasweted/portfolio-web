@@ -26,10 +26,21 @@
 
 <body class="main-content">
 
-    @include('layouts.navbar')
+    @include('layouts.home-page')
 
     <main>
-        @yield('content')
+        <section class="section sec2 about" id="about">
+            @include('layouts.about')
+        </section>
+        <section class="section sec3" id="portfolio">
+            @include('layouts.portfolio')
+        </section>
+        <section class="section sec4" id="blogs">
+            @include('layouts.blogs')
+        </section>
+        <section class="section sec5 contact" id="contact">
+            @include('layouts.contacts')
+        </section>
     </main>
     @include('layouts.controllButtons')
 
@@ -37,3 +48,4 @@
 </body>
 
 </html>
+

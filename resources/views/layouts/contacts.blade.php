@@ -25,39 +25,33 @@
                 <div class="contact-item">
                     <div class="icon">
                         <i class="fas fa-envelope"></i>
-                        Location:
+                        Location
                     </div>
                     <p>
-                        London, United Kingdom
+                        :London, United Kingdom
                     </p>
                 </div>
                 <div class="contact-item">
                     <div class="icon">
                         <i class="fas fa-map-marker-alt"></i>
-                        Location:
+                        Location
                     </div>
                     <p>
-                        London, United Kingdom
+                        :London, United Kingdom
                     </p>
                 </div>             
             </div>
             <div class="contact-socials">
-                <div class="social-icon">
+                <div class="social-icons">
                     <a href="#" target="_blank">
                         <i class="fab fa-facebook-f"></i>
                     </a>
-                </div>
-                <div class="social-icon">
                     <a href="#" target="_blank">
                         <i class="fab fa-linkedin-in"></i>
                     </a>
-                </div>
-                <div class="social-icon">
                     <a href="#" target="_blank">
                         <i class="fab fa-github"></i>
                     </a>
-                </div>
-                <div class="social-icon">
                     <a href="#" target="_blank">
                         <i class="fab fa-discord"></i>
                     </a>
@@ -66,7 +60,7 @@
         </div>
         <div class="right-contact">
             <form action="" class="contact-form" method="POST">
-                <div class="input-control">
+                <div class="input-control input-control-2">
                     <input name="sender_name" type="text" required placeholder="Your Name">
                     <input name="email" type="email" required placeholder="Your Email">
                 </div>
@@ -78,8 +72,8 @@
                 </div>
                 <div class="submit-btn">
                     <a href="#" class="main-btn">
-                        <span class="btn-text">Download CV</span>
-                        <span class="btn-icon"><i class="fas fa-download"></i></span>
+                        <span class="btn-text">Send message</span>
+                        <span class="btn-icon"><i class="fas fa-envelope"></i></span>
                     </a>
                 </div>
             </form>

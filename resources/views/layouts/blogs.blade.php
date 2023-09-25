@@ -1,9 +1,9 @@
+<div class="main-title">
+    <h2>
+        My <span>Blogs</span><span class="bg-text">My blogs</span>
+    </h2>
+</div>
 <div class="blogs-content">
-    <div class="main-title">
-        <h2>
-            My <span>Blogs</span><span class="bg-text">My blogs</span>
-        </h2>
-    </div>
     <div class="blogs">
         <div class="blog">
             <img src={{ Storage::url('blog-1.jpg') }} alt="">

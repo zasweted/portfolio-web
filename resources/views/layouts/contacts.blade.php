@@ -1,9 +1,9 @@
+<div class="main-title">
+    <h2>
+        Contact <span>Me</span><span class="bg-text">My contacts</span>
+    </h2>
+</div>
 <div class="contact-container">
-    <div class="main-title">
-        <h2>
-            Contact <span>Me</span><span class="bg-text">My contacts</span>
-        </h2>
-    </div>
     <div class="contact-content-container">
         <div class="left-contact">
             <h4>
